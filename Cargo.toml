@@ -1,0 +1,17 @@
+[package]
+name = "pngenc"
+version = "0.1.0"
+authors = ["Andrew Orazov <andrew.orazov@gmail.com>"]
+description = "PNG image encoder"
+edition = "2024"
+homepage = "https://github.com/otakubeam/pngenc"
+repository = "https://github.com/otakubeam/pngenc"
+license = "MIT"
+keywords = ["file formats", "coding", "png", "compression", "lossless"]
+categories = ["compression", "algorithms", "encoding"]
+readme = "README.md"
+rust-version = "1.56.1"
+
+[dependencies]
+bitbit = "0.2.0"
+lazy_static = "1.5.0"
